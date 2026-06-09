@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log in — Moodo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Page layout + form card styles -->
+  <link rel="stylesheet" href="../Styles/login.css" />
+  <link rel="stylesheet" href="../Styles/loginForm.css" />
+</head>
+<body>
+
+  <div class="login-wrap">
+
+    <!-- brand lockup -->
+    <div class="login-brand">
+      <img src="../Assets/logo.svg" alt="Moodo logo" />
+      <span class="name">Moo<span>do</span></span>
+    </div>
+
+    <!-- ============ Login Form ============ -->
+    <form class="login-card" autocomplete="off">
+      <h1>Welcome back</h1>
+      <p class="welcome">Log in to pick up where you left off.</p>
+
+      <div class="field">
+        <label for="email">Username or email</label>
+        <input id="email" name="email" type="text" placeholder="you@example.com" required />
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="••••••••" required />
+      </div>
+
+      <div class="row">
+        <label><input type="checkbox" name="remember" /> Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <button class="login-btn" type="submit">Log in</button>
+
+      <p class="signup">New here? <a href="#">Create an account</a></p>
+    </form>
+
+  </div>
+
+</body>
+</html>
